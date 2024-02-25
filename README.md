@@ -6,11 +6,11 @@ This is a script to automate the build of a streamlined Windows 11 23H2 image, s
 My main goal is to use only Microsoft utilities like DISM, and nothing external. The only executable included is oscdimg.exe, which is provided in the Windows ADK and it is used to create bootable ISO images. Also included is an unattended answer file, which is used to bypass the MS account on OOBE and to deploy the image with the /compact flag.
 It's open-source, so feel free to add or remove anything you want! Feedback is also much appreciated.
 
-Warning: Only build 22631.2361 (latest Insider build Release Preview channel as of now) are supported.
+Warning: Only build 22631.2361 (Win11_23H2_English_x64v2.iso) are supported.
 
 Instructions:
 
-1. Download Windows 11 build 22631.2361 (latest Insider build Release Preview channel as of now) from UUPdump or Microsoft website (<https://www.microsoft.com/software-download/windows11>)
+1. Download Windows 11 build 22631.2361 (latest Insider build Release Preview channel as of now aliases Win11_23H2_English_x64v2.iso) from UUPdump or Microsoft website (<https://www.microsoft.com/software-download/windows11>)
 2. Mount the downloaded ISO image using Windows Explorer.
 3. After you mount the downloaded ISO image, run tiny11 23h2 creator.bat as administrator.
 4. Select the drive letter where the image is mounted (only the letter, no colon (:))
